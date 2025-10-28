@@ -1,10 +1,10 @@
 // main.tsx
 
 // src/main.tsx
-
+import "normalize.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.tsx";
+import App from "./components/App.tsx";
 
 ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   <React.StrictMode>
@@ -12,13 +12,3 @@ ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
   </React.StrictMode>
 );
 import { createRoot } from "react-dom/client";
-
-createRoot(document.getElementById("root") as HTMLElement).render(
-  <div>
-    <h1>Welcome to React</h1>
-    <p>
-      This is JSX — it looks like HTML, but it's not quite the same. It has its
-      own rules!
-    </p>
-  </div>
-);
