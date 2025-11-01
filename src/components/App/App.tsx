@@ -1,10 +1,10 @@
 import { useState } from "react";
 import css from "./App.module.css";
-import CafeInfo from "./CafeInfo";
-import VoteOptions from "./VoteOptions";
-import type { Votes, VoteType } from "../types/votes.ts";
-import VoteStats from "./VoteStats";
-import Notification from "./Notification";
+import CafeInfo from "../CafeInfo/CafeInfo.tsx";
+import VoteOptions from "../VoteOptions/VoteOptions.tsx";
+import type { Votes, VoteType } from "../../types/votes.ts";
+import VoteStats from "../VoteStats/VoteStats.tsx";
+import Notification from "../Notification/Notification.tsx";
 
 function App() {
   // 🔹 Початковий стан голосів
