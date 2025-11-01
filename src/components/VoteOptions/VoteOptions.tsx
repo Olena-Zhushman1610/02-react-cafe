@@ -1,5 +1,5 @@
 import css from "./VoteOptions.module.css";
-import type { VoteType } from "../types/votes.ts";
+import type { VoteType } from "../../types/votes.ts";
 
 // 🔹 Типізація пропсів
 interface VoteOptionsProps {
